@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Clarusway Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform.</p>
+    <form action="survey.css">
+        <label for="name">Name:</label>
+        <br><br>
+        <input  type="text" name="name" id="name" placeholder="Enter your name">
+        <br>
+        <label for="sname">Surname:</label>
+        <br><br>
+        <input type="text" name="Surname" id="sname" placeholder="Enter your surname">
+        <br>
+        <label for="mail">Email:</label>
+        <br><br>
+        <input type="email" name="Email" id="mail"placeholder="user@clarusway.com">
+        
+        <p>Which option best describe your current role?</p>
+        
+        <select name="current_role" id="" >
+            <option value="none" selected disabled hidden>Select current role</option>
+            <option value="Tlead">Team Leader</option>
+            <option value="Developer">Developer</option>
+            <option value="AWS">AWS</option>
+            
+         </select>
+
+         <p>Would you recommend Clarusway to a friend?</p>
+         <input type="radio" name="recommend" id="yes" value="yes"> 
+         <label for="yes">Definetely, yes</label>
+         <br><br>
+         <input type="radio" name="recommend" id="maybe" value="maybe">
+         <label for="maybe">Maybe</label>
+          <br><br>
+          <input type="radio" name="recommend" id="not" value="not">
+         <label for="not">Not sure</label>
+          <br><br>
+          <input type="radio" name="recommend" id="no" value="no"> 
+         <label for="no">Definetely, no</label>
+         
+         <br>
+         <p>What is your favourite feature of Clarusway?</p>
+         
+         <select name="fav_feature" id="">
+            <option value="none" selected disabled hidden>Select an option</option>
+            <option value="documents">Documents</option>
+            <option value="mentor">Mentor</option>
+            <option value="Kahoot">Kahoot</option>
+         </select>
+         <br>
+         <p>What would you like to see improved?(Check all that apply</p>
+         <input type="checkbox" name="fronted" id="fend" value="Frontend">
+         <label for="fend">Front-end Projects</label>
+         <br>
+         <input type="checkbox" name="backend" id="back" value="Backend">
+         <label for="back">Back-end Projects</label>
+         <br>
+         <input type="checkbox" name="DS" id="ds" value="DataScience>
+         <label for="ds">Data Science</label>
+         <br>
+         <input type="checkbox" name="Addition" id="add" value="Additional Courses">
+         <label for="add">Additional Courses</label>
+         <br>
+         <p>Any commnets or suggestions</p>
+         <textarea name="opininons" id="" cols="30" rows="10" placeholder="Enter your comment here...Thanks for your opinions"></textarea>
+         <input type="submit" value="Submit">
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
